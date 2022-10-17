@@ -144,6 +144,32 @@ table {
                     background: #020202;
                 }
 
+                &::after {
+                    position: absolute;
+                    content: '';
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    transform: scale(0);
+                    background-color: #CDE322;
+                    box-shadow: 0 10px 20px #707c17;
+                    transition: all 0.3s;
+                    z-index: -1;
+                }
+
+                &.hover:hover {
+
+                    &::after {
+                        transform: scale(1);
+                    }
+
+                    color: black;
+                    span {
+                        color: black;
+                    }
+                }
+
                 span {
                     color: #c4c4c4;
                     display: block;
