@@ -3,6 +3,10 @@ table {
   border-spacing: 0;
 }
 
+.horarios {
+  margin-top: 120px;
+}
+
 .horarios .musculacao {
   display: -webkit-box;
   display: -ms-flexbox;
