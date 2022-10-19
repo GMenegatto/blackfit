@@ -422,3 +422,22 @@ header {
         }
     }
 }
+
+.gympass {
+    .title-image {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        align-items: center;
+    }
+
+    p {
+        display: block;
+        max-width: 680px;
+        font-size: 20px;
+        text-align: center;
+        margin: 20px auto;
+    }
+}
+
+

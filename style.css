@@ -454,4 +454,25 @@ header .container .button a {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.gympass .title-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gympass p {
+  display: block;
+  max-width: 680px;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px auto;
+}
 /*# sourceMappingURL=style.css.map */

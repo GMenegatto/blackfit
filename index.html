@@ -6,14 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carrossel.css">
     <link rel="stylesheet" href="table.css">
     <title>Blackfit</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -153,6 +164,21 @@
         </div>
     </section>
 
+    <section class="section gympass">
+        <div class="container">
+            <div class="title-image">
+                <h2 class="title">ACEITAMOS</h2>
+                <img src="assets/gympass.png" alt="">
+            </div>
+
+            <p>Agora a Black Fit Academia tem parceria com a empresa GYMPASS.
+                Oferecemos diversos serviço desde musculação até aulas de sala.
+                <br><br>
+                Para mais informações, entre em contato.
+            </p>
+        </div>
+    </section>
+
     <section class="section siganos">
         <div class="container">
             <div class="left-side">
@@ -179,8 +205,120 @@
     </section>
 
 
-</body>
+    <section class="section clientes">
+        <h2 class="title center">CLIENTES <b>SATISFEITOS</b></h2>
 
+        <div class="carouselContainer">
+            <div class="carouselOfImages">
+                <div class="carouselImage">
+                    <div class="image">
+                        <img src="assets/cliente1.png" alt="">
+                    </div>
+                    <div class="comma">
+                        <img src="assets/comma.png" alt="">
+                    </div>
+                    <p>Recomendo principalmente pela equipe de profissionais, desde da recepção, limpeza, organização e
+                        principalmente instrutores, lógico se você seguir suas recomendações e orientações. Atenção
+                        total ao seu treino e correção de posicionamento. A academia e toda sua estrutura sempre limpa e
+                        organizada. Estou realmente satisfeito e recomendo todos os profissionais e serviços da Black
+                        Fit. #eutonablackfit sempre.</p>
+
+                    <h3>RODRIGO FELIX MENDONÇA</h3>
+                </div>
+
+                <div class="carouselImage">
+                    <div class="image">
+                        <img src="assets/cliente1.png" alt="">
+                    </div>
+                    <div class="comma">
+                        <img src="assets/comma.png" alt="">
+                    </div>
+                    <p>Recomendo principalmente pela equipe de profissionais, desde da recepção, limpeza, organização e
+                        principalmente instrutores, lógico se você seguir suas recomendações e orientações. Atenção
+                        total ao seu treino e correção de posicionamento. A academia e toda sua estrutura sempre limpa e
+                        organizada. Estou realmente satisfeito e recomendo todos os profissionais e serviços da Black
+                        Fit. #eutonablackfit sempre.</p>
+
+                    <h3>RODRIGO FELIX MENDONÇA</h3>
+                </div>
+
+                <div class="carouselImage">
+                    <div class="image">
+                        <img src="assets/cliente1.png" alt="">
+                    </div>
+                    <div class="comma">
+                        <img src="assets/comma.png" alt="">
+                    </div>
+                    <p>Recomendo principalmente pela equipe de profissionais, desde da recepção, limpeza, organização e
+                        principalmente instrutores, lógico se você seguir suas recomendações e orientações. Atenção
+                        total ao seu treino e correção de posicionamento. A academia e toda sua estrutura sempre limpa e
+                        organizada. Estou realmente satisfeito e recomendo todos os profissionais e serviços da Black
+                        Fit. #eutonablackfit sempre.</p>
+
+                    <h3>RODRIGO FELIX MENDONÇA</h3>
+                </div>
+
+                <div class="carouselImage">
+                    <div class="image">
+                        <img src="assets/cliente1.png" alt="">
+                    </div>
+                    <div class="comma">
+                        <img src="assets/comma.png" alt="">
+                    </div>
+                    <p>Recomendo principalmente pela equipe de profissionais, desde da recepção, limpeza, organização e
+                        principalmente instrutores, lógico se você seguir suas recomendações e orientações. Atenção
+                        total ao seu treino e correção de posicionamento. A academia e toda sua estrutura sempre limpa e
+                        organizada. Estou realmente satisfeito e recomendo todos os profissionais e serviços da Black
+                        Fit. #eutonablackfit sempre.</p>
+
+                    <h3>RODRIGO FELIX MENDONÇA</h3>
+                </div>
+
+                <div class="carouselImage">
+                    <div class="image">
+                        <img src="assets/cliente1.png" alt="">
+                    </div>
+                    <div class="comma">
+                        <img src="assets/comma.png" alt="">
+                    </div>
+                    <p>Recomendo principalmente pela equipe de profissionais, desde da recepção, limpeza, organização e
+                        principalmente instrutores, lógico se você seguir suas recomendações e orientações. Atenção
+                        total ao seu treino e correção de posicionamento. A academia e toda sua estrutura sempre limpa e
+                        organizada. Estou realmente satisfeito e recomendo todos os profissionais e serviços da Black
+                        Fit. #eutonablackfit sempre.</p>
+
+                    <h3>RODRIGO FELIX MENDONÇA</h3>
+                </div>
+
+                <div class="carouselImage">
+                    <div class="image">
+                        <img src="assets/cliente1.png" alt="">
+                    </div>
+                    <div class="comma">
+                        <img src="assets/comma.png" alt="">
+                    </div>
+                    <p>Recomendo principalmente pela equipe de profissionais, desde da recepção, limpeza, organização e
+                        principalmente instrutores, lógico se você seguir suas recomendações e orientações. Atenção
+                        total ao seu treino e correção de posicionamento. A academia e toda sua estrutura sempre limpa e
+                        organizada. Estou realmente satisfeito e recomendo todos os profissionais e serviços da Black
+                        Fit. #eutonablackfit sempre.</p>
+
+                    <h3>RODRIGO FELIX MENDONÇA</h3>
+                </div>
+            </div>
+
+            <div class="gradient-left">
+            </div>
+            <div class="gradient-right">
+            </div>
+        </div>
+
+    </section>
+
+    <script src="carrossel.js"></script>
+
+
+</body>
 
 
 
