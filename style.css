@@ -475,4 +475,44 @@ header .container .button a {
   text-align: center;
   margin: 20px auto;
 }
+
+.contact {
+  background-color: #343434;
+  padding: 0;
+  position: relative;
+  height: 350px;
+}
+
+.contact .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact .container .left {
+  position: absolute;
+  left: 0;
+}
+
+.contact .container .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.contact .container .right h2 {
+  color: white;
+  font-size: 25px;
+}
+
+.contact .container .right h2 b {
+  font-size: 50px;
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */

@@ -30,6 +30,7 @@
 }
 
 .carouselImage {
+  background: white;
   position: relative;
   width: 20%;
   height: auto;
