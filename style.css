@@ -162,7 +162,7 @@ a {
 header {
   border-bottom: 1px solid #BDBDBD;
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.842);
+  background-color: white;
   width: 100%;
   top: 0;
   z-index: 2;
@@ -499,6 +499,9 @@ header .container .button a {
 .endereco {
   padding: 20px 0;
   background-color: #FAFAFA;
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.233);
+          box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.233);
+  position: relative;
 }
 
 .endereco .container {
