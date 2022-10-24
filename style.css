@@ -119,10 +119,6 @@ section {
   display: block;
 }
 
-.section {
-  padding: 100px 0;
-}
-
 body {
   line-height: 1;
 }
@@ -149,6 +145,10 @@ q:after {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.section {
+  padding: 100px 0;
 }
 
 a {
@@ -265,7 +265,7 @@ header .container .button a {
   margin: 0 auto;
 }
 
-.banner .white-bottom {
+.white-bottom {
   display: block;
   width: 611px;
   height: 32px;
@@ -333,7 +333,7 @@ header .container .button a {
 }
 
 .nossos-planos {
-  background: url("assets/bg-planos.png");
+  background: url("assets/bg-green-photo.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -402,25 +402,23 @@ header .container .button a {
 }
 
 .siganos {
-  background: #CDE322;
-  position: relative;
+  background: url("assets/bg-green-photo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .siganos .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.siganos .container .title {
-  color: #343434;
+  position: relative;
 }
 
 .siganos .container .telefone {
   position: absolute;
   bottom: 0;
-  max-width: 560px;
-  left: 190px;
+  max-width: 870px;
+  left: -100px;
 }
 
 .siganos .container .right-side {
@@ -453,8 +451,10 @@ header .container .button a {
       -ms-flex-align: center;
           align-items: center;
   gap: 20px;
-  background: #ffffff60;
-  display: block;
+  background: #CDE322;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -469,6 +469,10 @@ header .container .button a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.clientes {
+  position: relative;
 }
 
 .gympass .title-image {
@@ -492,11 +496,46 @@ header .container .button a {
   margin: 20px auto;
 }
 
+.endereco {
+  padding: 20px 0;
+  background-color: #FAFAFA;
+}
+
+.endereco .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.endereco .container img {
+  max-width: 19px;
+}
+
+.endereco .container h2 {
+  font-size: 24px;
+  color: #343434;
+  font-weight: bold;
+  border-right: 1px solid;
+  padding: 0 20px;
+  margin-right: 20px;
+}
+
+.endereco .container p {
+  font-size: 18px;
+}
+
 .contact {
   background-color: #343434;
-  padding: 0;
+  background: url("assets/bg-green-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
-  height: 350px;
 }
 
 .contact .container {
@@ -504,84 +543,35 @@ header .container .button a {
   display: -ms-flexbox;
   display: flex;
   height: 100%;
-}
-
-.contact .container .left {
-  position: absolute;
-  left: -154px;
-}
-
-.contact .container .left img {
-  width: 59vw;
-  height: 400px;
-}
-
-.contact .container .left-side {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
-  height: 100%;
-  position: relative;
-  z-index: 100;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.contact .container .left-side h2 {
-  margin-top: 85px;
-}
-
-.contact .container .left-side .street {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 15px;
-  font-size: 20px;
-  margin-top: 10px;
-}
-
-.contact .container .left-side h2 {
-  font-weight: bold;
-  color: #343434;
-  font-size: 30px;
-  margin-left: 45px;
-}
-
-.contact .container .right {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
-  gap: 50px;
-}
-
-.contact .container .right h2 {
+.contact h2 {
   color: white;
   font-size: 25px;
+  border-right: 2px solid white;
+  padding-right: 40px;
+  margin-right: 40px;
 }
 
-.contact .container .right h2 b {
+.contact h2 b {
   font-size: 50px;
   font-weight: bold;
 }
 
-.contact .container .right .phone {
-  gap: 20px;
+.contact .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.contact .phone-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -589,37 +579,44 @@ header .container .button a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
 }
 
-.contact .container .right .phone .phone-item {
+.contact .phone-item img {
+  width: 25px;
+  height: 25px;
+}
+
+.contact .phone-item span {
+  background: white;
+  padding: 10px 25px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.contact .phone-item .type {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 10px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.contact .container .right .phone .phone-item img {
-  position: relative;
-  z-index: 3;
-}
-
-.contact .container .right .phone .phone-item span {
-  background-color: white;
-  font-weight: bold;
-  color: #343434;
-  font-size: 22px;
-  text-align: center;
-  border-radius: 13px;
-  padding: 10px 30px;
-  width: 250px;
-  position: relative;
-  left: -26px;
+.contact .phone-item .type p {
+  color: white;
+  font-weight: 500;
 }
 
 footer {
   background-color: #343434;
+  background: url("assets/bg-green.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 35px 0;
 }
 
