@@ -220,7 +220,7 @@ header .container .button a {
 }
 
 .banner {
-  background: url("assets/bg-1.png");
+  background: url("assets/bg-capa.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -248,7 +248,7 @@ header .container .button a {
 .banner .container img {
   max-width: 700px;
   display: block;
-  margin: 0 auto;
+  margin: 60px auto;
 }
 
 .banner .container a {
@@ -293,6 +293,7 @@ header .container .button a {
   margin: 0 auto;
   text-align: center;
   padding: 15px 35px;
+  padding: 23px 17px;
   font-size: 18px;
 }
 
@@ -333,9 +334,20 @@ header .container .button a {
 }
 
 .nossos-planos {
-  background: url("assets/bg-green-photo.png");
+  background: url("assets/bg-green-4.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.nossos-planos p {
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .nossos-planos .planos {
@@ -345,8 +357,8 @@ header .container .button a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 30px;
-  margin-top: 100px;
+  gap: 42px;
+  margin-top: 60px;
   margin-bottom: 60px;
 }
 
@@ -368,10 +380,13 @@ header .container .button a {
   color: white;
   font-weight: bold;
   border-radius: 0px 0px 40px 40px;
-  max-width: 270px;
+  max-width: 280px;
   position: relative;
   top: -23px;
   margin: 0 auto;
+  font-size: 22px;
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.433);
+          box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.433);
 }
 
 .nossos-planos .planos .plano .info {
@@ -402,7 +417,7 @@ header .container .button a {
 }
 
 .siganos {
-  background: url("assets/bg-green-photo.png");
+  background: url("assets/bg-green.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -452,6 +467,8 @@ header .container .button a {
           align-items: center;
   gap: 20px;
   background: #CDE322;
+  font-size: 24px;
+  font-weight: 500;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -535,7 +552,7 @@ header .container .button a {
 
 .contact {
   background-color: #343434;
-  background: url("assets/bg-green-2.png");
+  background: url("assets/bg-green-3.png");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -560,6 +577,8 @@ header .container .button a {
   border-right: 2px solid white;
   padding-right: 40px;
   margin-right: 40px;
+  position: relative;
+  bottom: -5px;
 }
 
 .contact h2 b {
@@ -616,10 +635,7 @@ header .container .button a {
 }
 
 footer {
-  background-color: #343434;
-  background: url("assets/bg-green.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #080808;
   padding: 35px 0;
 }
 
