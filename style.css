@@ -168,6 +168,10 @@ header {
   z-index: 2;
 }
 
+header .logo img {
+  max-width: 180px;
+}
+
 header .container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -360,6 +364,7 @@ header .container .button a:hover {
   background: none;
   border: none;
   cursor: pointer;
+  font-size: 38px;
 }
 
 .nossas-modalidades .modalidades {
