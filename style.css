@@ -196,10 +196,17 @@ header .container .button a {
   font-size: 18px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 header .container .button a:hover {
   background: #a8bb13;
+}
+
+header .container .button a:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 .title {
@@ -271,10 +278,17 @@ header .container .button a:hover {
   margin: 0 auto;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .banner .container a:hover {
   background: #a8bb13;
+}
+
+.banner .container a:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 .white-bottom {
@@ -309,10 +323,17 @@ header .container .button a:hover {
   font-size: 18px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .button:hover {
   background: #a8bb13;
+}
+
+.button:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 .nossas-modalidades {

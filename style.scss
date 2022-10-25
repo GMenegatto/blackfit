@@ -199,6 +199,13 @@ header {
                 &:hover {
                     background: #a8bb13;
                 }
+
+                transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+
+                &:hover {
+                    -webkit-transform: translateY(-3px);
+                    transform: translateY(-3px);
+                }
             }
         }
 
@@ -266,6 +273,13 @@ header {
             &:hover {
                 background: #a8bb13;
             }
+
+            transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+
+            &:hover {
+                -webkit-transform: translateY(-3px);
+                transform: translateY(-3px);
+            }
         }
     }
 
@@ -325,6 +339,14 @@ header {
 
     &:hover {
         background: #a8bb13;
+    }
+
+
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+
+    &:hover {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
     }
 }
 
