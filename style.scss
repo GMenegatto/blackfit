@@ -194,6 +194,11 @@ header {
                 color: black;
                 padding: 15px 35px;
                 font-size: 18px;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    background: #a8bb13;
+                }
             }
         }
 
@@ -256,6 +261,11 @@ header {
             box-sizing: border-box;
             max-width: 350px;
             margin: 0 auto;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background: #a8bb13;
+            }
         }
     }
 
@@ -311,6 +321,11 @@ header {
     padding: 15px 35px;
     padding: 23px 17px;
     font-size: 18px;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: #a8bb13;
+    }
 }
 
 
@@ -458,6 +473,11 @@ header {
                     display: flex;
                     width: 46px;
                     justify-content: center;
+
+                    &.fb {
+                        position: relative;
+                        left: -10px;
+                    }
                 }
 
                 align-items: center;
@@ -468,6 +488,11 @@ header {
                 justify-content: center;
                 display: flex;
                 padding: 30px;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    background: #a8bb13;
+                }
             }
         }
     }
@@ -488,9 +513,15 @@ header {
     p {
         display: block;
         max-width: 680px;
+        line-height: 28px;
         font-size: 20px;
         text-align: center;
         margin: 20px auto;
+
+        span {
+            font-weight: 300;
+            font-style: italic;
+        }
     }
 }
 

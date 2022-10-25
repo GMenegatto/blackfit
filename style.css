@@ -194,6 +194,12 @@ header .container .button a {
   color: black;
   padding: 15px 35px;
   font-size: 18px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+header .container .button a:hover {
+  background: #a8bb13;
 }
 
 .title {
@@ -263,6 +269,12 @@ header .container .button a {
           box-sizing: border-box;
   max-width: 350px;
   margin: 0 auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.banner .container a:hover {
+  background: #a8bb13;
 }
 
 .white-bottom {
@@ -295,6 +307,12 @@ header .container .button a {
   padding: 15px 35px;
   padding: 23px 17px;
   font-size: 18px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: #a8bb13;
 }
 
 .nossas-modalidades {
@@ -476,6 +494,8 @@ header .container .button a {
   display: -ms-flexbox;
   display: flex;
   padding: 30px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .siganos .container .redes .rede .image {
@@ -486,6 +506,15 @@ header .container .button a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.siganos .container .redes .rede .image.fb {
+  position: relative;
+  left: -10px;
+}
+
+.siganos .container .redes .rede:hover {
+  background: #a8bb13;
 }
 
 .clientes {
@@ -508,9 +537,15 @@ header .container .button a {
 .gympass p {
   display: block;
   max-width: 680px;
+  line-height: 28px;
   font-size: 20px;
   text-align: center;
   margin: 20px auto;
+}
+
+.gympass p span {
+  font-weight: 300;
+  font-style: italic;
 }
 
 .endereco {
