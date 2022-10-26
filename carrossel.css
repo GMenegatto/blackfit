@@ -29,7 +29,8 @@
   content: '';
 }
 
-.carouselImage {
+.item {
+  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,7 +40,6 @@
           flex-direction: column;
   background: white;
   position: relative;
-  width: 435px;
   height: auto;
   border-radius: 20px;
   padding: 42px 32px;
@@ -58,13 +58,13 @@
   height: 455px;
 }
 
-.carouselImage div.image {
+.item div.image {
   position: absolute;
   right: 20px;
   top: -20px;
 }
 
-.carouselImage p {
+.item p {
   margin-top: 15px;
   font-size: 20px;
   color: #343434;
@@ -74,33 +74,38 @@
           flex: 1;
 }
 
-.carouselImage h3 {
+.item h3 {
   color: #343434;
   font-size: 20px;
   font-weight: bold;
   margin-top: 20px;
 }
 
+.item .comma {
+  display: block;
+  max-width: 80px;
+}
+
 @media only screen and (max-width: 1300px) {
-  .carouselImage {
+  .item {
     width: 30%;
   }
 }
 
 @media only screen and (max-width: 773px) {
-  .carouselImage {
+  .item {
     width: 50%;
   }
 }
 
 @media only screen and (max-width: 490px) {
-  .carouselImage {
+  .item {
     width: 50%;
     padding: 15px;
   }
 }
 
-.carouselImage.is-selected {
+.item.is-selected {
   border: 1.5px solid #cde322;
   color: #cde322;
   z-index: 10;
@@ -108,8 +113,8 @@
           transform: scale(1);
 }
 
-.carouselImage.nextToSelectedLeft,
-.carouselImage.nextToSelectedRight {
+.item.nextToSelectedLeft,
+.item.nextToSelectedRight {
   -webkit-transform: scale(1);
           transform: scale(1);
   z-index: 5;
@@ -159,6 +164,35 @@
 .flickity-viewport {
   margin: 0px;
   width: 100%;
+}
+
+.home-demo .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: white;
+  position: relative;
+  width: 435px;
+  height: auto;
+  border-radius: 20px;
+  padding: 42px 32px;
+  border: 3px solid #E6E6E6;
+  margin-right: 33px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  counter-increment: carousel-cell;
+  text-align: left;
+  vertical-align: center;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  font-size: 1.2em;
+  height: 455px;
 }
 
 .carousel-modalidades {
