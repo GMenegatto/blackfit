@@ -45,7 +45,7 @@
   vertical-align: center;
   transition: transform 0.5s;
   font-size: 1.2em;
-  height: 455px;
+  height: 500px;
 
 
   div.image {
@@ -60,6 +60,9 @@
     color: #343434;
     font-family: 'Roboto';
     flex: 1;
+    display: flex;
+    align-items: center;
+    line-height: 26px;
   }
 
   h3 {
@@ -187,7 +190,7 @@
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
   font-size: 1.2em;
-  height: 455px;
+  height: 530px;
 }
 
 

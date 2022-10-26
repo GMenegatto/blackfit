@@ -199,6 +199,7 @@ header .container .button a {
   font-size: 18px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  font-weight: 500;
   -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
@@ -281,6 +282,7 @@ header .container .button a:hover {
   margin: 0 auto;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  font-weight: 500;
   -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
@@ -326,6 +328,7 @@ header .container .button a:hover {
   font-size: 18px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  font-weight: 500;
   -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }

@@ -55,7 +55,7 @@
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
   font-size: 1.2em;
-  height: 455px;
+  height: 500px;
 }
 
 .item div.image {
@@ -72,6 +72,13 @@
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 26px;
 }
 
 .item h3 {
@@ -192,7 +199,7 @@
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
   font-size: 1.2em;
-  height: 455px;
+  height: 530px;
 }
 
 .carousel-modalidades {
