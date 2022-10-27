@@ -682,11 +682,18 @@ header .container .button a:hover {
   height: 25px;
 }
 
-.contact .phone-item span {
+.contact .phone-item span, .contact .phone-item a {
   background: white;
   padding: 10px 25px;
   border-radius: 12px;
   font-weight: bold;
+  color: black;
+  -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.contact .phone-item span:hover, .contact .phone-item a:hover {
+  background-color: #CDE322;
 }
 
 .contact .phone-item .type {
