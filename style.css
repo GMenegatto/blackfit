@@ -576,6 +576,7 @@ header .container .button a:hover {
   font-size: 20px;
   text-align: center;
   margin: 20px auto;
+  margin-bottom: 0;
 }
 
 .gympass p span {

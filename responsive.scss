@@ -9,15 +9,44 @@
         }
     }
 
+    .tabela {
+        display: none;
+    }
+
     .horarios {
         margin-top: 80px;
+        padding-bottom: 30px !important;
+
+        h2 {
+            font-size: 24px;
+        }
 
         .musculacao .infos {
             flex-direction: column;
+            width: 100%;
+            margin-top: 20px;
+
+
+            .item {
+                width: auto;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                padding: 10px 5px;
+
+                p {
+                    font-size: 16px;
+                }
+            }
+
+            flex-direction: row;
+
+    
 
             .item.middle {
-                padding: 15px 0;
-                border: none;
+                padding: 0 0;
+                height: 18px;
+                margin-top: 17px;
             }
         }
     }

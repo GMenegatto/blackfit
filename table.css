@@ -191,4 +191,137 @@ table tbody tr td span {
   font-size: 15px;
   margin: 5px 0;
 }
+
+.accordion {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.row-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Kanit';
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 35px;
+  font-size: 18px;
+  background: #141414;
+  font-family: 'Kanit';
+  border-bottom: 1px solid black;
+  color: #c4c4c4;
+  font-size: 15px;
+}
+
+.row .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Kanit';
+  max-width: 95px;
+  text-align: center;
+}
+
+.row .info h2 {
+  font-weight: bold;
+  font-family: 'Kanit';
+}
+
+.row .horario {
+  font-weight: bold;
+}
+
+.accordion-item {
+  background: #CDE322;
+  color: #111;
+  margin: 1rem 0;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 4rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px 0;
+  font-weight: 500;
+}
+
+.accordion-item-header::after {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  content: "\f0da";
+  font-size: 2rem;
+  position: absolute;
+  left: 2rem;
+}
+
+.accordion-item-header.active::after {
+  content: "\f0d7";
+}
+
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion-item-body-content {
+  padding: 0;
+  padding-left: 0;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  -o-border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+     border-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#34495e), to(transparent)) 1;
+     border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+}
 /*# sourceMappingURL=table.css.map */
