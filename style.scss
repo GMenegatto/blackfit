@@ -690,3 +690,42 @@ footer {
 }
 
 
+
+*::-webkit-scrollbar-button {
+    background-color: #B5C62F;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #B5C62F;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #f8f9ff;
+}
+
+::selection {
+    background-color: #B5C62F;
+    color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #B5C62F;
+    transition: 0.3s;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #99a824;
+  }
+
