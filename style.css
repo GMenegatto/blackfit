@@ -741,6 +741,21 @@ footer .container .developer p {
   font-weight: 300;
 }
 
+.reveal {
+  position: relative;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  opacity: 0;
+  -webkit-transition: all 1.2s ease;
+  transition: all 1.2s ease;
+}
+
+.reveal.active {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  opacity: 1;
+}
+
 *::-webkit-scrollbar-button {
   background-color: #B5C62F;
 }
