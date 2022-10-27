@@ -232,7 +232,7 @@ table tbody tr td span {
 }
 
 .row h1, .row h2, .row h3, .row p, .row span {
-  font-family: 'Kanit';
+  font-family: 'Kanit', 'Montserrat';
 }
 
 .row .info {
@@ -256,7 +256,7 @@ table tbody tr td span {
 
 .row .info h2 {
   font-weight: bold;
-  font-family: 'Kanit';
+  font-family: 'Kanit', 'Montserrat';
 }
 
 .row .horario {
