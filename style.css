@@ -158,6 +158,10 @@ a {
   display: none !important;
 }
 
+.tabela-mobile {
+  display: none;
+}
+
 header {
   border-bottom: 1px solid #BDBDBD;
   position: absolute;
