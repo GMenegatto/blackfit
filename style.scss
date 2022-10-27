@@ -182,7 +182,8 @@ header {
         justify-content: space-between;
         align-items: center;
         display: flex;
-        padding: 15px 0;
+        padding: 15px 10px;
+        
 
         nav {
             a {
@@ -701,6 +702,10 @@ footer {
     }
 }
 
+.home-demo {
+    margin: 40px 0;
+}
+
 
 *::-webkit-scrollbar-button {
     background-color: #B5C62F;
@@ -739,4 +744,5 @@ footer {
   ::-webkit-scrollbar-thumb:hover {
     background: #99a824;
   }
+
 

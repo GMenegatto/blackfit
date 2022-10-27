@@ -1,0 +1,304 @@
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 760px !important;
+    }
+
+    .tabela {
+        .container {
+            overflow-x: scroll;
+        }
+    }
+
+    .horarios {
+        margin-top: 80px;
+        .musculacao .infos {
+            flex-direction: column;
+
+            .item.middle {
+                padding: 15px 0;
+                border: none;
+            }
+        }
+    }
+
+    header {
+        .logo {
+            img {
+                max-width: 130px;
+            }
+        }
+
+        .container {
+
+            .button {
+                font-size: 14px;
+            }
+
+            nav {
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .button {
+        font-size: 16px;
+    }
+
+    .banner {
+        .container {
+            a {
+                font-size: 16px;
+            }
+
+            img {
+                max-width: 500px;
+            }
+        }
+    }
+
+    .nossas-modalidades {
+        .header {
+            button {
+                font-size: 28px;
+            }
+        }
+    }
+
+    .carousel-modalidades {
+        margin: 20px 0;
+    }
+
+    .nossos-planos {
+        p {
+            font-size: 18px;
+        }
+
+        .planos {
+            .plano {
+                padding: 30px 36px;
+                padding-top: 0;
+
+                .info {
+                    font-size: 16px;
+                }
+
+                .label {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .gympass {
+        p {
+            font-size: 18px;
+        }
+    }
+
+    .siganos {
+        .container {
+
+            .left-side,
+            .telefone {
+                display: none;
+            }
+
+            .right-side {
+                max-width: 100%;
+                flex: 1;
+            }
+        }
+
+    }
+
+    .item {
+
+        p,
+        h3 {
+            font-size: 16px;
+        }
+    }
+}
+
+@media only screen and (max-width: 741px) {
+    .container {
+        max-width: 360px !important;
+    }
+
+
+    header {
+
+
+        .container {
+
+            .button {
+                padding: 19px 17px;
+            }
+
+            nav {
+                display: none;
+
+            }
+        }
+    }
+
+    .title {
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .button {
+        font-size: 16px;
+    }
+
+    .section {
+        padding: 80px 0;
+    }
+
+    .banner {
+        .container {
+            a {
+                font-size: 16px;
+            }
+
+            img {
+                max-width: 340px;
+            }
+        }
+    }
+
+    .white-bottom {
+        width: 360px;
+        bottom: -1px;
+    }
+
+    .nossas-modalidades {
+        .header {
+            button {
+                font-size: 28px;
+            }
+        }
+    }
+
+    .carousel-modalidades {
+        margin: 20px 0;
+    }
+
+    .nossos-planos {
+        p {
+            font-size: 18px;
+        }
+
+        .planos {
+            flex-direction: column;
+
+            .plano {
+                padding: 30px 36px;
+                padding-top: 0;
+
+                .info {
+                    font-size: 16px;
+                }
+
+                .label {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .gympass {
+        p {
+            font-size: 18px;
+        }
+    }
+
+    .siganos {
+        .container {
+
+            .left-side,
+            .telefone {
+                display: none;
+            }
+
+            .right-side {
+                max-width: 100%;
+                flex: 1;
+            }
+
+            .redes {
+                .rede {
+                    font-size: 20px;
+                }
+            }
+        }
+
+    }
+
+    .contact {
+        margin-top: -40px;
+
+        h2 {
+            border: none;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            flex-direction: column;
+
+
+        }
+
+        .phone {
+            flex-direction: column;
+        }
+    }
+
+    .endereco {
+        .container {
+            flex-direction: column;
+            gap: 10px;
+
+            h2 {
+                border: none;
+            }
+
+            p {
+                text-align: center;
+            }
+        }
+    }
+
+    .home-demo {
+        .item {
+            height: 560px;
+        }
+    }
+
+    footer {
+        .container {
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+
+            a {
+                margin: 0 15px;
+            }
+
+            .developer {
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

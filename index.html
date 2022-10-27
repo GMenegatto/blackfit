@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="carrossel.css">
     <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="responsive.css">
     <title>Blackfit</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -59,7 +60,9 @@
     <header>
         <div class="container">
             <div class="logo">
-                <img src="assets/logo-preto.svg" alt="">
+                <a href="index.html">
+                    <img src="assets/logo.png" alt="">
+                </a>
             </div>
             <nav>
                 <a href="#modalidades">MODALIDADES</a>
@@ -83,87 +86,82 @@
 
     </section>
 
-    <section id="modalidades" class="section nossas-modalidades ">
-        <div class="container reveal">
+    <section id="modalidades" class="section nossas-modalidades">
+        <div class="container">
             <div class="header">
                 <h2 class="title">NOSSAS <b>MODALIDADES</b></h2>
 
-                <div class="button-row">
-                    <button class="button--previous"><i class="fa-solid fa-circle-arrow-left"></i></button>
 
-                    <button class="button--next"><i class="fa-solid fa-circle-arrow-right"></i></button>
+            </div>
+
+            <div class="home-demo">
+                <div id="owl-example" class="owl-carousel owl-theme">
+                    
+
+
+                    <div class="modalidade">
+                        <img src="assets/musculacao.png" alt="">
+                    </div>
+                    <div class="modalidade">
+                        <img src="assets/spinning.png" alt="">
+                    </div>
+                    <div class="modalidade">
+                        <img src="assets/jump.png" alt="">
+                    </div>
+
+                    <div class="modalidade">
+                        <img src="assets/func.png" alt="">
+                    </div>
+                    <div class="modalidade">
+                        <img src="assets/along.png" alt="">
+                    </div>
+                    <div class="modalidade">
+                        <img src="assets/abdm.png" alt="">
+                    </div>
+
+
+
+                    <div class="modalidade">
+                        <img src="assets/fit.png" alt="">
+                    </div>
+                    <div class="modalidade">
+                        <img src="assets/ritm.png" alt="">
+                    </div>
+                    <div class="modalidade">
+                        <img src="assets/zumb.png" alt="">
+                    </div>
+
+
+
+                    <div class="modalidade">
+                        <img src="assets/kara.png" alt="">
+                    </div>
+                    <div class="modalidade">
+                        <img src="assets/boxe.png" alt="">
+                    </div>
+                    <div class="modalidade">
+                        <img src="assets/yoga.png" alt="">
+                    </div>
+
+
+                    <div class="modalidade">
+                        <img src="assets/pila.png" alt="">
+                    </div>
+                    <div class="modalidade">
+                        <img src="assets/pass.png" alt="">
+                    </div>
+
                 </div>
             </div>
 
-            <div class="carousel-modalidades">
 
-
-                <div class="carousel" data-flickity>
-                    <div class="carousel-cell">
-                        <div class="modalidade">
-                            <img src="assets/musculacao.png" alt="">
-                        </div>
-                        <div class="modalidade">
-                            <img src="assets/spinning.png" alt="">
-                        </div>
-                        <div class="modalidade">
-                            <img src="assets/jump.png" alt="">
-                        </div>
-                    </div>
-
-                    <div class="carousel-cell">
-                        <div class="modalidade">
-                            <img src="assets/func.png" alt="">
-                        </div>
-                        <div class="modalidade">
-                            <img src="assets/along.png" alt="">
-                        </div>
-                        <div class="modalidade">
-                            <img src="assets/abdm.png" alt="">
-                        </div>
-                    </div>
-
-                    <div class="carousel-cell">
-                        <div class="modalidade">
-                            <img src="assets/fit.png" alt="">
-                        </div>
-                        <div class="modalidade">
-                            <img src="assets/ritm.png" alt="">
-                        </div>
-                        <div class="modalidade">
-                            <img src="assets/zumb.png" alt="">
-                        </div>
-                    </div>
-
-                    <div class="carousel-cell">
-                        <div class="modalidade">
-                            <img src="assets/kara.png" alt="">
-                        </div>
-                        <div class="modalidade">
-                            <img src="assets/boxe.png" alt="">
-                        </div>
-                        <div class="modalidade">
-                            <img src="assets/yoga.png" alt="">
-                        </div>
-                    </div>
-
-                    <div class="carousel-cell">
-                        <div class="modalidade">
-                            <img src="assets/pila.png" alt="">
-                        </div>
-                        <div class="modalidade">
-                            <img src="assets/pass.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
             <a class="button" href="horario.html">CONFIRA A PROGRAMAÇÃO COMPLETA &nbsp; <i
                     class="fa-solid fa-arrow-right"></i></a>
         </div>
     </section>
 
-    <section id="planos" class="section nossos-planos ">
-        <div class="container reveal">
+    <section id="planos" class="section nossos-planos">
+        <div class="container">
             <h2 class="title white center">
                 NOSSOS <b>PLANOS</b>
             </h2>
@@ -235,8 +233,8 @@
         </div>
     </section>
 
-    <section class="section gympass ">
-        <div class="container reveal">
+    <section class="section gympass">
+        <div class="container">
             <div class="title-image">
                 <h2 class="title">ACEITAMOS</h2>
                 <img src="assets/gympass.png" alt="">
@@ -250,8 +248,8 @@
         </div>
     </section>
 
-    <section class="siganos ">
-        <div class="container section reveal">
+    <section class="siganos">
+        <div class="container section">
             <div class="left-side">
                 <img class="telefone" src="assets/mockup-iphone.png" alt="">
             </div>
@@ -276,10 +274,10 @@
     </section>
 
 
-    <section class="section clientes ">
-        <h2 class="title center reveal">CLIENTES <b>SATISFEITOS</b></h2>
+    <section class="section clientes">
+        <h2 class="title center">CLIENTES <b>SATISFEITOS</b></h2>
 
-        <div class="container reveal">
+        <div class="container">
 
             <div class="home-demo">
                 <div class="owl-carousel owl-theme">
@@ -363,8 +361,8 @@
         <div class="green-bottom"></div>
     </section>
 
-    <section id="contato" class="contact section ">
-        <div class="container reveal">
+    <section id="contato" class="contact section">
+        <div class="container">
             <h2>entre em <br><b>contato</b></h2>
 
             <div class="phone">
@@ -390,8 +388,8 @@
         </div>
     </section>
 
-    <section class="endereco ">
-        <div class="container reveal">
+    <section class="endereco">
+        <div class="container">
             <img src="assets/map.png" alt="">
             <h2>Black Fit Academia</h2>
 
@@ -400,7 +398,7 @@
         </div>
     </section>
 
-    <section class="mapa reveal">
+    <section class="mapa">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1839.1641112646923!2d-47.305457840449364!3d-22.790298837913088!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f99a882a72814e2!2sBlack%20Fit%20Academia!5e0!3m2!1sen!2sbr!4v1666543758145!5m2!1sen!2sbr"
             width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -408,8 +406,8 @@
 
     </section>
 
-    <footer class="">
-        <div class="container reveal">
+    <footer>
+        <div class="container">
             <div class="social-media">
 
                 <a target="_blank" href="https://www.instagram.com/blackfitacademiano/"><img
@@ -440,12 +438,24 @@
                 items: 3,
                 margin: 10,
                 loop: true,
-                nav: false
+                nav: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    741: {
+                        items: 2
+                    },
+                    1200: {
+                        items: 3
+                    }
+                }
             });
         });
 
     </script>
-    <script src="scroll.js"></script>
+
+
 
 
 </body>

@@ -1,0 +1,206 @@
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 760px !important;
+  }
+  .tabela .container {
+    overflow-x: scroll;
+  }
+  .horarios {
+    margin-top: 80px;
+  }
+  .horarios .musculacao .infos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .horarios .musculacao .infos .item.middle {
+    padding: 15px 0;
+    border: none;
+  }
+  header .logo img {
+    max-width: 130px;
+  }
+  header .container .button {
+    font-size: 14px;
+  }
+  header .container nav a {
+    font-size: 14px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .button {
+    font-size: 16px;
+  }
+  .banner .container a {
+    font-size: 16px;
+  }
+  .banner .container img {
+    max-width: 500px;
+  }
+  .nossas-modalidades .header button {
+    font-size: 28px;
+  }
+  .carousel-modalidades {
+    margin: 20px 0;
+  }
+  .nossos-planos p {
+    font-size: 18px;
+  }
+  .nossos-planos .planos .plano {
+    padding: 30px 36px;
+    padding-top: 0;
+  }
+  .nossos-planos .planos .plano .info {
+    font-size: 16px;
+  }
+  .nossos-planos .planos .plano .label {
+    font-size: 16px;
+  }
+  .gympass p {
+    font-size: 18px;
+  }
+  .siganos .container .left-side,
+  .siganos .container .telefone {
+    display: none;
+  }
+  .siganos .container .right-side {
+    max-width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .item p,
+  .item h3 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 741px) {
+  .container {
+    max-width: 360px !important;
+  }
+  header .container .button {
+    padding: 19px 17px;
+  }
+  header .container nav {
+    display: none;
+  }
+  .title {
+    line-height: 35px;
+    text-align: center;
+  }
+  .button {
+    font-size: 16px;
+  }
+  .section {
+    padding: 80px 0;
+  }
+  .banner .container a {
+    font-size: 16px;
+  }
+  .banner .container img {
+    max-width: 340px;
+  }
+  .white-bottom {
+    width: 360px;
+    bottom: -1px;
+  }
+  .nossas-modalidades .header button {
+    font-size: 28px;
+  }
+  .carousel-modalidades {
+    margin: 20px 0;
+  }
+  .nossos-planos p {
+    font-size: 18px;
+  }
+  .nossos-planos .planos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nossos-planos .planos .plano {
+    padding: 30px 36px;
+    padding-top: 0;
+  }
+  .nossos-planos .planos .plano .info {
+    font-size: 16px;
+  }
+  .nossos-planos .planos .plano .label {
+    font-size: 16px;
+  }
+  .gympass p {
+    font-size: 18px;
+  }
+  .siganos .container .left-side,
+  .siganos .container .telefone {
+    display: none;
+  }
+  .siganos .container .right-side {
+    max-width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .siganos .container .redes .rede {
+    font-size: 20px;
+  }
+  .contact {
+    margin-top: -40px;
+  }
+  .contact h2 {
+    border: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .contact .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact .phone {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .endereco .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+  .endereco .container h2 {
+    border: none;
+  }
+  .endereco .container p {
+    text-align: center;
+  }
+  .home-demo .item {
+    height: 560px;
+  }
+  footer .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 30px;
+  }
+  footer .container a {
+    margin: 0 15px;
+  }
+  footer .container .developer p {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
