@@ -231,6 +231,10 @@ table tbody tr td span {
   font-size: 15px;
 }
 
+.row h1, .row h2, .row h3, .row p, .row span {
+  font-family: 'Kanit';
+}
+
 .row .info {
   display: -webkit-box;
   display: -ms-flexbox;
