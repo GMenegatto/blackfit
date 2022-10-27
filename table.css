@@ -203,12 +203,14 @@ table tbody tr td span {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 10px;
-  font-weight: bold;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 14px;
   font-family: 'Kanit';
+  color: white;
+  background: black;
 }
 
 .row {
