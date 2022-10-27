@@ -205,12 +205,12 @@ table tbody tr td span {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 10px;
+  padding: 4px;
   font-weight: 500;
   font-size: 14px;
   font-family: 'Kanit';
-  color: white;
-  background: black;
+  color: black;
+  background: #cde322;
 }
 
 .row {
