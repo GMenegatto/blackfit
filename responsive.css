@@ -81,6 +81,17 @@
   .container {
     max-width: 360px !important;
   }
+  .owl-theme .owl-dots .owl-dot span {
+    margin: 5px 6px !important;
+  }
+  .nomobile {
+    display: none;
+  }
+  .mobile {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
   header .container .button {
     padding: 19px 17px;
   }
@@ -96,6 +107,9 @@
   }
   .section {
     padding: 80px 0;
+  }
+  .banner {
+    background-position-x: -450px;
   }
   .banner .container a {
     font-size: 16px;
@@ -128,6 +142,10 @@
   }
   .nossos-planos .planos .plano .info {
     font-size: 16px;
+  }
+  .nossos-planos .planos .plano .info span {
+    margin-top: 10px;
+    font-size: 12px;
   }
   .nossos-planos .planos .plano .label {
     font-size: 16px;
@@ -182,6 +200,8 @@
   }
   .endereco .container p {
     text-align: center;
+    font-size: 17px;
+    line-height: 22px;
   }
   .home-demo .item {
     height: 560px;
@@ -200,7 +220,10 @@
     margin: 0 15px;
   }
   footer .container .developer p {
-    font-size: 16px;
+    font-size: 14px;
+  }
+  footer .container .developer img {
+    max-width: 100px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

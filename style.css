@@ -155,7 +155,7 @@ a {
 }
 
 .mobile {
-  display: none;
+  display: none !important;
 }
 
 header {

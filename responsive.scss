@@ -11,6 +11,7 @@
 
     .horarios {
         margin-top: 80px;
+
         .musculacao .infos {
             flex-direction: column;
 
@@ -131,6 +132,19 @@
         max-width: 360px !important;
     }
 
+    .owl-theme .owl-dots .owl-dot span {
+        margin: 5px 6px !important;
+    }
+
+    .nomobile {
+        display: none;
+    }
+
+    .mobile {
+        display: flex !important;
+    }
+
+
 
     header {
 
@@ -162,6 +176,8 @@
     }
 
     .banner {
+        background-position-x: -450px;
+
         .container {
             a {
                 font-size: 16px;
@@ -204,6 +220,11 @@
 
                 .info {
                     font-size: 16px;
+
+                    span {
+                        margin-top: 10px;
+                        font-size: 12px;
+                    }
                 }
 
                 .label {
@@ -274,6 +295,8 @@
 
             p {
                 text-align: center;
+                font-size: 17px;
+                line-height: 22px;
             }
         }
     }
@@ -296,7 +319,12 @@
 
             .developer {
                 p {
-                    font-size: 16px;
+                    font-size: 14px;
+
+
+                }
+                img {
+                    max-width: 100px;
                 }
             }
         }
