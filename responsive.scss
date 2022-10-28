@@ -3,6 +3,10 @@
         max-width: 760px !important;
     }
 
+    .mobile2 {
+        display: block;
+    }
+
     .tabela-mobile {
         display: flex;
         margin-bottom: 60px;
@@ -36,7 +40,7 @@
             img {
                 position: absolute;
                 left: -51px;
-                bottom: 54px;
+                bottom: 51px;
             }
 
 
@@ -49,7 +53,7 @@
 
                 p {
                     // font-size: 16px;
-                    margin-bottom: 32px;
+                    margin-bottom: 26px;
                 }
             }
 
@@ -58,7 +62,7 @@
     
 
             .item.middle {
-                padding: 0 0;
+
                 border: none;
             }
         }

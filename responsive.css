@@ -2,6 +2,9 @@
   .container {
     max-width: 760px !important;
   }
+  .mobile2 {
+    display: block;
+  }
   .tabela-mobile {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -37,7 +40,7 @@
   .horarios .musculacao .infos img {
     position: absolute;
     left: -51px;
-    bottom: 54px;
+    bottom: 51px;
   }
   .horarios .musculacao .infos .item {
     width: auto;
@@ -53,10 +56,9 @@
     padding: 10px 5px;
   }
   .horarios .musculacao .infos .item p {
-    margin-bottom: 32px;
+    margin-bottom: 26px;
   }
   .horarios .musculacao .infos .item.middle {
-    padding: 0 0;
     border: none;
   }
   header .logo img {
