@@ -187,7 +187,7 @@ header {
         align-items: center;
         display: flex;
         padding: 15px 10px;
-        
+
 
         nav {
             a {
@@ -647,7 +647,8 @@ header {
             height: 25px;
         }
 
-        span, a {
+        span,
+        a {
             background: white;
             padding: 10px 25px;
             border-radius: 12px;
@@ -707,6 +708,8 @@ footer {
     }
 }
 
+
+
 .home-demo {
     margin: 40px 0;
 }
@@ -732,22 +735,25 @@ footer {
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+
+/* Track */
+::-webkit-scrollbar-track {
     background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: #B5C62F;
     transition: 0.3s;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
     background: #99a824;
-  }
+}
 
 
+.noleft {
+    border-left: 0 !important;
+}

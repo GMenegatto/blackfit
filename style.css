@@ -687,7 +687,8 @@ header .container .button a:hover {
   height: 25px;
 }
 
-.contact .phone-item span, .contact .phone-item a {
+.contact .phone-item span,
+.contact .phone-item a {
   background: white;
   padding: 10px 25px;
   border-radius: 12px;
@@ -697,7 +698,8 @@ header .container .button a:hover {
   transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.contact .phone-item span:hover, .contact .phone-item a:hover {
+.contact .phone-item span:hover,
+.contact .phone-item a:hover {
   background-color: #CDE322;
 }
 
@@ -807,5 +809,9 @@ footer .container .developer p {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #99a824;
+}
+
+.noleft {
+  border-left: 0 !important;
 }
 /*# sourceMappingURL=style.css.map */
