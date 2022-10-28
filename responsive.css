@@ -3,7 +3,7 @@
     max-width: 760px !important;
   }
   .mobile2 {
-    display: block;
+    display: block !important;
   }
   .tabela-mobile {
     display: -webkit-box;
