@@ -384,7 +384,7 @@ header .container .button a:hover {
 }
 
 .nossos-planos {
-  background: url("assets/bg-green-4.png");
+  background: url("assets/bg-green-4-minify.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -474,7 +474,7 @@ header .container .button a:hover {
 }
 
 .siganos {
-  background: url("assets/bg-green.png");
+  background: url("assets/bg-green-minify.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -627,7 +627,7 @@ header .container .button a:hover {
 
 .contact {
   background-color: #343434;
-  background: url("assets/bg-green-3.png");
+  background: url("assets/bg-green-3-minify.png");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
